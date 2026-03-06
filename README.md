@@ -37,9 +37,5 @@ pip install moviepy Pillow numpy
 4. **Chờ xử lý:**
    Chương trình sẽ tiến hành ghép thời gian vào video. Sau khi chạy xong, file mới sẽ có tên dạng `[tên_gốc]_timestamp.mp4` nằm cùng thư mục với file gốc.
 
-## 📝 Lưu ý
-- **Font chữ:** Script mặc định tìm font `Courier New` hoặc `Arial` trên macOS. Nếu anh dùng Windows hoặc Linux, anh có thể cần chỉnh sửa đường dẫn font trong code (dòng 52-55).
-- **Vị trí:** Mặc định timestamp nằm ở góc dưới bên trái video. Anh có thể điều chỉnh `POS_X`, `POS_Y` trong code nếu muốn thay đổi.
-
 ---
 
